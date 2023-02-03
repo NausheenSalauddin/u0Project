@@ -5,13 +5,20 @@
 - ReCode4Change
 
 # Team Members
-- Nausheen Salauddin
-- Mohammed Qaasim Asif Desai
 - Harpreet Kaur
+- Mohammed Qaasim Asif Desai
+- Nausheen Salauddin
 - Rajinderpal Singh
 
 # Project Description
-- 
+- The aim of this project is to boost revenue for the local community of Machakos, Kenya by creating job opportunities and providing resources   and training to equip them with the necessary skills.
+- Additionally, this website will facilitate global contributions to this cause, whether through monetary donations or through volunteerism. 
+- Furthermore, it will serve as a platform to match businesses and employees in the region, thus improving the economy.
+
+# Tech Stack
+- This project is built using HTML, CSS, Bootstrap, CSS Flexbox
+- The prototype is created using AdobeXD
+- The editor is VS Code
 
 # Design Specifications
 
