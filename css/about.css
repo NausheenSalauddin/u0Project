@@ -1,0 +1,32 @@
+body{
+    height:100%;
+    width:100;
+}
+div[id='Para1']{
+    margin:5px;
+}
+h1{
+    margin: 35px;
+}
+p{
+    font-size: large;
+    margin: 25px;
+    margin-right:5px
+}
+img[class="logo"]{
+    height:70px;
+    width: 80px;
+}
+img[class="bar"]{
+    height: 200px;;
+    width: 350px;
+    float:right;
+    border:1px solid grey;
+}
+
+img[class="map"]{
+    height: 200px;;
+    width: 350px;
+    float:left;
+    border:1px solid grey;
+}
