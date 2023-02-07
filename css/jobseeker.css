@@ -3,7 +3,6 @@ body {
     background-color: #F2EEEA;
 }
 
-
 /* Navigation */
 .logo {
     width: 30%;
@@ -15,14 +14,112 @@ body {
     font-size: 15pt;
 }
 
-.jobBodyLeftCol {
-    border: 2px solid black;
-}
-
-.jobBodyRightCol {
-    border: 2px solid black;
-}
-
+/************* Containers ************/
 .row {
-    margin: auto;
+    justify-content: space-evenly;
 }
+
+
+/* Left Container */
+.jobBodyLeftCol {
+    padding: 2%;
+    border: 1px solid #246461;
+    border-radius: 1%;
+    box-shadow: 3px 3px 10px rgb(165, 165, 165);
+    background-color: white;
+}
+
+.col-mb-7 {
+    margin-bottom: 1.3%;
+}
+
+.jobBodyLeftColCard {
+    background-color: #F2EEEA;
+    border-radius: 1.375rem;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(191, 190, 190);
+}
+
+/* Right Container */
+.jobBodyRightCol {
+    margin-left:1.5%;
+    padding: 2%;
+    border: 1px solid #246461;
+    border-radius: 1%;
+    box-shadow: 3px 3px 10px rgb(165, 165, 165);
+    background-color: white;
+}
+
+.jobBodyRightColCard {
+    height: 20%;
+}
+
+.jobBodyRightColCardOverlay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(17, 17, 17, 0.5)!important;
+}
+
+/*********** Headings ***********/
+.jobBodyLeftColHeading,
+.jobBodyRightColHeading {
+    color: #246461;
+    text-align: center;
+    font-family: serif;
+}
+
+/* Left */
+.jobBodyLeftColCardTitle {
+    color: #246461;
+}
+
+/* Right */
+.jobBodyRightColCardTitle {
+    color: white;
+    font-size: 30pt;
+}
+
+
+
+/*********** Text ***********/
+
+/* Left */
+.jobBodyLeftColCardText {
+    color: #246461;
+}
+
+/* Right */
+
+/*********** Buttons ***********/
+.btn {
+    background-color: #EB9125;
+    border-radius: 1.375rem;
+    border: none;
+    float: right;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #EB9125;
+    border-radius: 1.375rem;
+    border: none;
+    color: white;
+}
+
+.btn:active {
+    background-color: #EB9125!important;
+    color: white!important;
+}
+
+/*********** Images ***********/
+
+/* Left */
+.jobBodyRightColCardImage {
+    height:20%;
+}
+
+/* Right */
+
