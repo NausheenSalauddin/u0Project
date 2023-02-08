@@ -40,3 +40,56 @@ body {
     background-color: #EB9125!important;
     color: white!important;
 }
+
+/* Images */
+.homeImage{
+    width:100%;
+}
+/* heading */
+.homeSlogan{
+    background-color:#7E331F;
+
+}
+
+/* slogan */
+
+.homeSlogan{
+    width:17%;
+    z-index: 1;
+}
+/*header tags */
+.homeBodyLeftColHeading{
+    color:#882D17;
+}
+
+/* Paragraphs */
+
+.homeBodyLeftColText{
+    color:#085466;
+    font-size:24px ;
+}
+/* 
+/* Main  */
+
+.homeBodyLeftCol{
+    margin:6%;
+    /* border:1px solid; */
+}
+
+.homeBtn{
+    font-size:15pt;
+    width:22%;
+}
+
+footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+
+}
+/**********************
+
+        Do Not Touch This Page 
+
+
+********************/
