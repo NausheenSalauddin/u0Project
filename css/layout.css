@@ -5,11 +5,38 @@ body {
 
 /* Navigation */
 .logo {
-    width: 30%;
+    width: 45%;
+    margin-left: 10%;
 }
 
 .nav-item a {
     color: #246461!important;
     font-weight: bold;
     font-size: 15pt;
+}
+
+.nav-item {
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+/*********** Buttons ***********/
+.btn {
+    background-color: #EB9125;
+    border-radius: 1.375rem;
+    border: none;
+    float: right;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #EB9125;
+    border-radius: 1.375rem;
+    border: none;
+    color: white;
+}
+
+.btn:active {
+    background-color: #EB9125!important;
+    color: white!important;
 }
