@@ -78,26 +78,6 @@
 
 /* Right */
 
-/*********** Buttons ***********/
-.btn {
-    background-color: #EB9125;
-    border-radius: 1.375rem;
-    border: none;
-    float: right;
-    color: white;
-}
-
-.btn:hover {
-    background-color: #EB9125;
-    border-radius: 1.375rem;
-    border: none;
-    color: white;
-}
-
-.btn:active {
-    background-color: #EB9125!important;
-    color: white!important;
-}
 
 /*********** Images ***********/
 
