@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Stylesheets-->
         <link href="../scripts/node_modules/bootstrap/dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../css/layout.css">
         <link rel="stylesheet" href="../css/donatevolunteer.css">
         <!--Scripts-->
@@ -38,8 +39,8 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="jobseeker.html">Job Seekers</a></li>
-                                <li><a class="dropdown-item" href="donatevolunteer.html">Donate</a></li>
-                                <li><a class="dropdown-item" href="donatevolunteer.html">Volunteer</a></li>
+                                <li><a class="dropdown-item" href="donatevolunteer.html#donate">Donate</a></li>
+                                <li><a class="dropdown-item" href="donatevolunteer.html#volunteer">Volunteer</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -51,22 +52,42 @@
                     </ul>
                 </div>
             </div>
-            <h1 class="donateMainHeading">Donate</h1>
         </header>
         <main>
-            <div class="row donateBodyTopRow">
+            <div class="row donateBodyTopRow" id="donate">
+                <h1 class="donateTopRowMainHeading">Donate</h1>
                 <div class="col-mb-7">
                     <div class="card donateBodyTopRowCard">
                         <div class="card-body">
                             <h5 class="card-title donateBodyTopRowCardTitle">Contribute Monetary Donation</h5>
                             <p class="card-text donateBodyTopRowCardText">All monentary donations are distributed to the areas of greatest need</p>
-                            <p class="card-text donateBodyTopRowCardText">Payment Information Placeholder</p>
-                            <a href="#" class="btn donateBodyTopRowCardBtn">Donate</a>
+
+                            <!---------OPTION 1---------->
+                            <!-- <p class="card-text donateBodyTopRowCardText">Payment Information Placeholder</p>
+                            <a href="#" class="btn donateBodyTopRowCardBtn">Donate</a> -->
+                            <!---------OPTION 2---------->
+                            <div class="card donateBodyTopRowPaymentCard">
+                                <div class="card-title row donateBodyTopRowPaymentCardTitle">
+                                    <i class="fa fa-credit-card-alt fa-2x col-2" aria-hidden="true"></i>
+                                    <span class="donateBodyTopRowPaymentCardSubTitle col-8">Payment Options</span>
+                                </div>
+                                <div class="card-body donateBodyTopRowPaymentCardBody">
+                                    <button class="btn donateBodyTopRowPaymentCardBtn">
+                                        <i class="fa fa-cc-amex fa-2x"></i>
+                                        <i class="fa fa-cc-mastercard fa-2x"></i>
+                                        <i class="fa fa-cc-visa fa-2x"></i>
+                                    </button>
+                                    <button class="btn donateBodyTopRowPaymentCardBtn">
+                                        <i class="fa fa-cc-paypal fa-2x"></i>
+                                    </</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row donateBodyBottomRow">
+            <div class="row donateBodyBottomRow" id="volunteer">
+                <h1 class="donateBottomRowMainHeading">Volunteer</h1>
                 <div class="col-mb-7">
                     <div class="card donateBodyBottomRowCard">
                         <div class="card-body">

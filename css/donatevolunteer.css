@@ -5,21 +5,34 @@
     margin: 3% 1%;
 }
 
-.col-mb-7 {
-    margin-bottom: 2.5%;
-}
-
 .donateBodyTopRowCard,
-.donateBodyBottomRowCard {
+.donateBodyBottomRowCard,
+.donateBodyTopRowPaymentCard {
+    margin: auto;
     border-radius: 1.375rem;
     box-shadow: 2px 2px 5px rgb(191, 190, 190);
 }
 
+.donateBodyTopRowPaymentCard {
+    width:50%;
+    margin: auto;
+    padding: 1%;
+    background-color: rgb(242, 238, 234);
+    border: none;
+}
+
+.donateBodyTopRowPaymentCardBody {
+    margin: auto;
+    width: 80%;
+}
+
 /*********** Headings ***********/
 
-.donateMainHeading,
+.donateTopRowMainHeading,
+.donateBottomRowMainHeading,
 .donateBodyTopRowCardTitle,
-.donateBodyBottomRowCardTitle {
+.donateBodyBottomRowCardTitle,
+.donateBodyTopRowPaymentCardSubTitle {
     color: #246461;
     text-align: center;
     font-family: serif;
@@ -30,15 +43,31 @@
 /*********** Text ***********/
 
 .donateBodyTopRowCardText,
-.donateBodyBottomRowCardText {
+.donateBodyBottomRowCardText,
+.donateBodyTopRowPaymentCardText {
     color: #246461;
+    text-align: center;
 }
 
+.donateBodyTopRowPaymentCardText {
+    font-weight: bold;
+    font-size: 12pt;
+}
 /*********** Images ***********/
+
+.fa-credit-card-alt {
+    margin:2%;
+    color: #246461;
+}
 
 /*********** Buttons ***********/
 
 .donateBodyTopRowCardBtn,
 .donateBodyBottomRowCardBtn {
     width: 15%;
+}
+
+.donateBodyTopRowPaymentCardBtn {
+    width: 100%;
+    margin: 2%;
 }
