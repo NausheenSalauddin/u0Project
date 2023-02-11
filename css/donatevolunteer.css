@@ -106,10 +106,6 @@ figcaption {
 
      /******** Containers *******/
 
-    body {
-        min-width: 375px;
-    }
-
     .donateBodyTopRowPaymentCard {
         width:80%;
     }

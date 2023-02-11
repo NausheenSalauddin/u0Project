@@ -82,3 +82,18 @@
 .jobBodyRightColCardImage {
     height: 10vw;
 }
+
+/******************************************/
+
+/*********** Media Queries ***********/
+
+/******************************************/
+@media screen and (max-width: 500px) {
+
+    /*********** Images ***********/
+
+    /* Right */
+    .jobBodyRightColCardImage {
+        height: 30vw;
+    }
+}
