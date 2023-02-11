@@ -1,0 +1,44 @@
+/************* Containers ************/
+
+.donateBodyTopRow,
+.donateBodyBottomRow {
+    margin: 3% 1%;
+}
+
+.col-mb-7 {
+    margin-bottom: 2.5%;
+}
+
+.donateBodyTopRowCard,
+.donateBodyBottomRowCard {
+    border-radius: 1.375rem;
+    box-shadow: 2px 2px 5px rgb(191, 190, 190);
+}
+
+/*********** Headings ***********/
+
+.donateMainHeading,
+.donateBodyTopRowCardTitle,
+.donateBodyBottomRowCardTitle {
+    color: #246461;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+/*********** Text ***********/
+
+.donateBodyTopRowCardText,
+.donateBodyBottomRowCardText {
+    color: #246461;
+}
+
+/*********** Images ***********/
+
+/*********** Buttons ***********/
+
+.donateBodyTopRowCardBtn,
+.donateBodyBottomRowCardBtn {
+    width: 15%;
+}
