@@ -96,3 +96,38 @@ figcaption {
     width: 100%;
     margin: 2%;
 }
+
+/******************************************/
+
+/*********** Media Queries ***********/
+
+/******************************************/
+@media screen and (max-width: 700px) {
+
+     /******** Containers *******/
+
+    body {
+        min-width: 375px;
+    }
+
+    .donateBodyTopRowPaymentCard {
+        width:80%;
+    }
+
+    /******** Headings *******/
+
+    .donateBodyBottomRowPaymentCardSubTitle {
+        font-size: 10pt;
+    }
+
+    /*********** Buttons ***********/
+
+    .donateBodyTopRowCardBtn,
+    .donateBodyBottomRowCardBtn {
+        width: 40%;
+    }
+
+    .fa {
+        margin: auto;
+    }
+}
