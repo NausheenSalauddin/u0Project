@@ -1,0 +1,90 @@
+/************* Containers ************/
+.row {
+    justify-content: space-evenly;
+    margin: 5% 0;
+}
+
+
+/* Left Container */
+.jobBodyLeftCol {
+    padding: 2%;
+    border: 1px solid #246461;
+    border-radius: 1%;
+    box-shadow: 3px 3px 10px rgb(165, 165, 165);
+    background-color: white;
+}
+
+.col-mb-7 {
+    margin-bottom: 2.5%;
+}
+
+.jobBodyLeftColCard {
+    background-color: #F2EEEA;
+    border-radius: 1.375rem;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(191, 190, 190);
+}
+
+/* Right Container */
+.jobBodyRightCol {
+    margin-left:1.5%;
+    padding: 2%;
+    border: 1px solid #246461;
+    border-radius: 1%;
+    box-shadow: 3px 3px 10px rgb(165, 165, 165);
+    background-color: white;
+}
+
+.jobBodyRightColCard {
+    margin-bottom: 1.5%;
+}
+
+.jobBodyRightColCardOverlay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(2, 2, 2, 0.7)!important;
+}
+
+/*********** Headings ***********/
+.jobBodyLeftColHeading,
+.jobBodyRightColHeading {
+    color: #246461;
+    text-align: center;
+    font-family: serif;
+}
+
+/* Left */
+.jobBodyLeftColCardTitle {
+    color: #246461;
+}
+
+/* Right */
+.jobBodyRightColCardTitle {
+    color: white;
+    font-size: 20pt;
+}
+
+
+
+/*********** Text ***********/
+
+/* Left */
+.jobBodyLeftColCardText {
+    color: #246461;
+}
+
+/* Right */
+
+
+/*********** Images ***********/
+
+/* Left */
+.jobBodyRightColCardImage {
+    height: 10vw;
+}
+
+/* Right */
+
