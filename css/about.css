@@ -1,32 +1,33 @@
-body{
-    height:100%;
-    width:100;
-}
-div[id='Para1']{
-    margin:5px;
-}
-h1{
-    margin: 35px;
-}
-p{
-    font-size: large;
-    margin: 25px;
-    margin-right:5px
-}
-img[class="logo"]{
-    height:70px;
-    width: 80px;
-}
-img[class="bar"]{
-    height: 200px;;
-    width: 350px;
-    float:right;
-    border:1px solid grey;
+
+/* Heading  */
+.paraHeading{
+    margin-left: 9%;
+    font-size:26px;
 }
 
-img[class="map"]{
-    height: 200px;;
-    width: 350px;
-    float:left;
-    border:1px solid grey;
+.rightContentHeading{
+    margin-left: 41%;
+    font-size:26px;
+}
+/* Images */
+.unemplymentChart{
+    margin:0;
+    width:450px;
+    float:right;
+}
+
+.map{
+    margin-left: 9%;
+    width:400px;
+}
+/* Content */
+.section{
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+
+.rightContentBody{
+    float:right;
+    margin-right: 9%;
 }
