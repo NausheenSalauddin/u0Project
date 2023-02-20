@@ -1,0 +1,14 @@
+/********** Images  *********/
+.teamMemberRightColImage {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width:20%;
+    }
+
+.teamMemberLeftColImage{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width:20%;
+}
