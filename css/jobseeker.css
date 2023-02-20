@@ -1,9 +1,9 @@
 /************* Containers ************/
-.row {
+
+.jobBodyRow {
     justify-content: space-evenly;
     margin: 5% 0;
 }
-
 
 /* Left Container */
 .jobBodyLeftCol {
@@ -49,6 +49,8 @@
 }
 
 /*********** Headings ***********/
+
+.jobMainHeading,
 .jobBodyLeftColHeading,
 .jobBodyRightColHeading {
     color: #246461;
@@ -67,8 +69,6 @@
     font-size: 20pt;
 }
 
-
-
 /*********** Text ***********/
 
 /* Left */
@@ -76,15 +76,24 @@
     color: #246461;
 }
 
-/* Right */
-
-
 /*********** Images ***********/
 
-/* Left */
+/* Right */
 .jobBodyRightColCardImage {
     height: 10vw;
 }
 
-/* Right */
+/******************************************/
 
+/*********** Media Queries ***********/
+
+/******************************************/
+@media screen and (max-width: 500px) {
+
+    /*********** Images ***********/
+
+    /* Right */
+    .jobBodyRightColCardImage {
+        height: 30vw;
+    }
+}
