@@ -1,0 +1,51 @@
+.profile-img{
+    width: 80%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin: 0 auto;
+    display: block;
+
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.m-t-5{
+    margin-top: 5px;   
+}
+
+div.body{
+    padding: 3%;
+}
+
+.div-btn{
+    margin: 0 auto;
+}
+
+.team-head-profile{
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+div > p{
+    margin: 1% 0;
+    padding: 0;
+}
+
+a {
+    color: #f96332;
+}
+
+.team-head-profile{
+border: 3px solid black;
+}
+
+.card {
+    background: #fff;
+    margin-bottom: 30px;
+    transition: .5s;
+    border: 0;
+    border-radius: .1875rem;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+}
