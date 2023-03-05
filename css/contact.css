@@ -49,3 +49,35 @@ border: 3px solid black;
     width: 100%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
+
+
+/****************** 
+    FORM STYLING 
+******************/
+
+.section-title h1{
+    color: #246461;
+}
+
+.contact-section {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: .5em;
+    padding: 1%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+.contact input, textarea{
+    background: #fff;
+    border: .5px solid #9F9F9F;
+    border-radius: 3px;
+    color: #232434;
+    padding: 3%;
+    padding-left: 5%;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 5% auto;
+}
