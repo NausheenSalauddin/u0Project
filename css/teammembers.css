@@ -20,9 +20,11 @@
     margin:2%;
    width: 50%;
    height:50%;
+
 }
 
 .teamMemberRightCol{
+    margin:2%;
     width: 50%;
     height:50%;
     float:right;
@@ -31,5 +33,21 @@
 .teamMemberRow{
     justify-content: space-evenly;
     height:20%;
-    margin: 2% 0;
+    margin: 2% 0;  
+    
 }
+
+@media (max-width: 700px) {
+    .teamMemberRow {   
+      flex-direction: column;
+    }
+    
+    .teamMemberLeftCol{
+        flex: 30%;
+        margin-left:100px;
+    }
+
+    .teamMemberRightCol{
+        margin-left:100px;
+    }
+  }
