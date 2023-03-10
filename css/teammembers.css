@@ -19,17 +19,23 @@ h2{
 }
 /********* Card  *******/
 .teamMemberLeftCol{
-    margin:2%;
-   width: 50%;
-   height:50%;
-
+    margin:1.5%;
+    float:left;
+    padding: 2%;
+    border: 1px solid #246461;
+    border-radius: 6%;
+    box-shadow: 3px 3px 10px rgb(165, 165, 165);
+    background-color: white;
 }
 
 .teamMemberRightCol{
-    margin:2%;
-    width: 50%;
-    height:50%;
+    margin:1.5%;
     float:right;
+    padding: 2%;
+    border: 1px solid #246461;
+    border-radius: 6%;
+    box-shadow: 3px 3px 10px rgb(165, 165, 165);
+    background-color: white;
 }
 
 .teamMemberRow{
@@ -43,9 +49,16 @@ h2{
     color:black;
 }
 
+h2{
+    text-align: center;
+}
+
 .card-text{
     color:#316F7E;
 }
+
+
+/* mobile view */
 @media (max-width: 700px) {
     .teamMemberRow {   
       flex-direction: column;
