@@ -57,6 +57,10 @@ border: 3px solid black;
 /****************** 
     FORM STYLING 
 ******************/
+.contact-btn{
+    margin: 2%;
+}
+
 
 .section-title h1{
     color: #246461;
