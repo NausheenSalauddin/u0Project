@@ -163,49 +163,54 @@
             </div>
         </div>
 
-        <!-- <div id="contact-form" class="contact-section section-padding">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h1>Get in Touch</h1>
-                </div>
-
-            </div>
-        </div>
- -->
         <div id="contact-form" class="contact-section section-padding">
             <div class="container">
                 <div class="section-title text-center">
                     <h1>Get in Touch</h1>
                 </div>
-                <div class="row">
-                    <div class="col-lg-7">	
-                        <div class="contact">
-                            <form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
-                                <div class="row">
-                                    <div class="form-group col-md-8">
-                                        <input type="text" name="name" class="form-control" placeholder="Name" required="required">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-8">
-                                        <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-8">
-                                        <input type="text" name="Subject" class="form-control" placeholder="Subject" required="required">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-8" >
-                                        <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
-                                    </div>
-                                </div>
+                <hr>
+                <form>
+                <div class="mb-3 row">
+                    <div class="col-2"></div>
+                    <label for="username" class="col-sm-2 col-form-label"> <img class="form-img col-sm-1" src="../images/user.png"/>Name</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="username" required>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                      
+                
+                <div class="mb-3 row">
+                    <div class="col-2"></div>
+                    <label for="phone" class="col-sm-2 col-form-label"> <img class="form-img col-sm-1" src="../images/Phone.png"/>Phone</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="phone" required>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+
+                <div class="mb-3 row">
+                    <div class="col-2"></div>
+                    <label for="email" class="col-sm-2 col-form-label"> <img class="form-img col-sm-1" src="../images/mail.png"/>Email</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="email" required>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+
+                <div class="mb-3 row">
+                    <div class="col-2"></div>
+                    <label for="message" class="col-sm-2 col-form-label"> <img class="form-img col-sm-1" src="../images/msg.png"/>Message</label>
+                    <div class="col-sm-6">
+                      <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+
+                <div class="mb-3 row justify-content-center">
+                    
+                        <button type="submit" value="Send message" name="submit" id="submitButton" class="col-auto btn btn-contact-bg " title="Submit Your Message!">Send Message</button>
+                </div>
                             </form>
                         </div>
                     </div>
@@ -221,3 +226,35 @@
         </footer>
     </body>
 </html>
+
+
+
+
+<!-- <div class="col-md-9 row form-group">
+                                    <img class="form-img col-md-1" src="../images/user.png"/>
+                                    <label class="col-md-2 align-items-center" for="name"> UserName</label>
+                                    <div class="col-md-9">
+                                        <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group col-md-8">
+                                        <input type="text" name="phone" class="form-control" placeholder="Phone" required="required">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-8">
+                                        <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-8">
+                                        <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
+                                    </div>
+                                </div> -->              
