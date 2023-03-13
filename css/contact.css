@@ -1,5 +1,5 @@
 .profile-img{
-    width: 80%;
+    width: 90%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     margin: 0 auto;
     display: block;
@@ -58,7 +58,7 @@ border: 3px solid black;
     FORM STYLING 
 ******************/
 .contact-btn{
-    margin: 2%;
+    margin: 0 1%;
 }
 
 
@@ -73,7 +73,10 @@ border: 3px solid black;
     border-radius: .5em;
     padding: 1%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
 
+hr{
+    margin-bottom: 5%;
 }
 
 .form-img{
