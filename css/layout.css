@@ -1,11 +1,13 @@
-/* Body */
+/*********** Containers ***********/
+
 body {
     background-color: #F2EEEA;
 }
 
-/* Navigation */
+/*********** Navigation ***********/
+
 .logo {
-    width: 30%;
+    width: 25%;
     margin-left: 10%;
 }
 
@@ -16,17 +18,13 @@ body {
     font-family: 'Noto Serif Georgian', serif;
 }
 
-/* .nav-item {
-    margin-top: 2%;
-    margin-right: 2%;
-} */
-
 .dropdown-item:hover,
 .dropdown-item:focus {
     background-color: #F2EEEA;
 }
 
 /*********** Buttons ***********/
+
 .btn {
     background-color: #EB9125;
     border-radius: 1.375rem;
@@ -46,54 +44,6 @@ body {
     background-color: #EB9125!important;
     color: white!important;
 }
-
-/* Images */
-.homeImage{
-    width:100%;
-}
-/* heading */
-.homeSlogan{
-    background-color:#7E331F;
-
-}
-
-/* slogan */
-
-.homeSlogan{
-    width:17%;
-    z-index: 1;
-}
-/*header tags */
-.homeBodyLeftColHeading{
-    color:#882D17;
-}
-
-/* Paragraphs */
-
-.homeBodyLeftColText{
-    color:#085466;
-    font-size:24px ;
-}
-/* 
-/* Main  */
-
-.homeBodyLeftCol{
-    margin:6%;
-    /* border:1px solid; */
-}
-
-.homeBtn{
-    font-size:15pt;
-    width:22%;
-}
-
-
-/**********************
-
-        Do Not Touch This Page 
-
-
-********************/
 
 /*********** Footer ***********/
 
@@ -125,6 +75,7 @@ body {
 /*********** Media Queries ***********/
 
 /******************************************/
+
 @media screen and (max-width: 700px) {
 
     /******** Containers *******/
@@ -132,4 +83,54 @@ body {
     body {
         min-width: 375px;
     }
+
+    /******** Navigation *******/
+
+    .logo {
+        width: 20%;
+    }
+}
+
+
+
+
+
+/* Images */
+.homeImage{
+    width:100%;
+}
+/* heading */
+.homeSlogan{
+    background-color:#7E331F;
+
+}
+
+/* slogan */
+
+.homeSlogan{
+    width:17%;
+    z-index: 1;
+}
+/*header tags */
+.homeBodyLeftColHeading{
+    color:#882D17;
+}
+
+/* Paragraphs */
+
+.homeBodyLeftColText{
+    color:#085466;
+    font-size:24px ;
+}
+
+/* Main  */
+
+.homeBodyLeftCol{
+    margin:6%;
+    /* border:1px solid; */
+}
+
+.homeBtn{
+    font-size:15pt;
+    width:22%;
 }

@@ -42,7 +42,7 @@
 .donateBodyTopRowPaymentCardSubTitle {
     color: #246461;
     text-align: center;
-    font-family: serif;
+    font-family: 'Noto Serif Georgian', serif;
     font-weight: bold;
     font-size: 20pt;
 }
@@ -54,6 +54,7 @@
 .donateBodyTopRowPaymentCardText {
     color: #246461;
     text-align: center;
+    font-family: 'Noto Sans Georgian', sans-serif;
 }
 
 .donateBodyTopRowPaymentCardText {
@@ -70,6 +71,7 @@
 figcaption {
     color: #246461;
     text-align: center;
+    font-family: 'Noto Sans Georgian', sans-serif;
 }
 
 .donateBodyBottomRowCardFig {
@@ -102,6 +104,16 @@ figcaption {
 /*********** Media Queries ***********/
 
 /******************************************/
+
+@media screen and (max-width: 800px) {
+
+     /******** Headings *******/
+
+    .donateBodyTopRowPaymentCardSubTitle {
+        font-size: 16pt;
+    }
+
+}
 @media screen and (max-width: 700px) {
 
      /******** Containers *******/
