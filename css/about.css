@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    max-width: 100%;
+}
+/* Heading  */
+.paraHeading{
+    margin-left: 9%;
+    font-size:26px;
+    color:#882D17
+}
+
+.paraHeadingRight{
+    margin-left: 41%;
+    margin-top: 2%;
+    font-size:26px;
+    color:#882D17
+}
+
+.paraHeading3{
+    margin-left: 9%;
+    margin-top: 3%;
+    font-size:26px;
+    color:#882D17
+}
+.paraHeading4{
+    margin-left: 9%;
+    margin-top: 5%;
+    font-size:26px;
+    color:#882D17
+}
+/*********   Images ********/
+.unemplymentChart{
+    margin-top:-5%;
+    margin-left:7%;
+    width:350px;
+    float:right;
+}
+
+.map{
+    margin-left: 9%;
+    margin-top:-3%;
+    width:400px;
+}
+
+.logo_u0{
+    
+    margin-right:7%;
+    float:right;
+    width:200px;
+
+}
+/* Content */
+.section{
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+
+.rightContentBody{
+    float:right;
+    margin-right: 9%;
+}
+
+.leftContentthree{
+    margin-left:9%;
+    margin-right:10%;
+}
+.leftContentFour{
+    margin-left: 9%;
+    margin-right:3%;
+}

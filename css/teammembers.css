@@ -1,0 +1,53 @@
+/********** Images  *********/
+.teamMemberRightColImage {
+    margin-left:40%;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width:20%;
+    }
+
+.teamMemberLeftColImage{
+    margin-left:40%;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width:20%;
+}
+
+/********* Card  *******/
+.teamMemberLeftCol{
+    margin:2%;
+   width: 50%;
+   height:50%;
+
+}
+
+.teamMemberRightCol{
+    margin:2%;
+    width: 50%;
+    height:50%;
+    float:right;
+}
+
+.teamMemberRow{
+    justify-content: space-evenly;
+    height:20%;
+    margin: 2% 0;  
+    
+}
+
+@media (max-width: 700px) {
+    .teamMemberRow {   
+      flex-direction: column;
+    }
+    
+    .teamMemberLeftCol{
+        flex: 30%;
+        margin-left:100px;
+    }
+
+    .teamMemberRightCol{
+        margin-left:100px;
+    }
+  }
